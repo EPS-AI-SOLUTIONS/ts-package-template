@@ -1,0 +1,6 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    uses: eps-ai-solutions/.github/.github/workflows/ts-test.yml@main

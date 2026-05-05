@@ -1,0 +1,11 @@
+name: Publish
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    uses: eps-ai-solutions/.github/.github/workflows/npm-publish.yml@main
+    with:
+      package-name: TEMPLATE_PACKAGE_NAME
+    secrets: inherit
