@@ -1,6 +1,6 @@
 {
   "name": "@eps-ai-solutions/TEMPLATE_PACKAGE_NAME",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TEMPLATE_DESCRIPTION",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,7 +12,9 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run --coverage",
