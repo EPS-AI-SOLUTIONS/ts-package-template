@@ -1,6 +1,6 @@
 {
   "name": "@eps-ai-solutions/TEMPLATE_PACKAGE_NAME",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "TEMPLATE_DESCRIPTION",
   "type": "module",
   "main": "./dist/index.js",
